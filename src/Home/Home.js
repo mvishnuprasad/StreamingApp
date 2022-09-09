@@ -1,13 +1,12 @@
-
-
 import React from 'react'
 import './Home.scss'
-import AcUnitIcon from '@mui/icons-material/AcUnit';
+import AcUnit from '@mui/icons-material/AcUnit';
 const Home = () => {
     return (
         <div className='home'>
-            <AcUnitIcon/>
-            <h1>Home</h1>
+            
+            <h1> <AcUnit/> </h1>
+            <p>Success</p>
         </div>
     )
 }
